@@ -9,7 +9,7 @@ namespace CalculatorApp.Tests
         public void AddReturnCorrectSum()
         {
             Calculator calc = new Calculator();
-            int Result = calc.Add(2, 3);
+            int Result = calc.Add(3, 4);
             Assert.Equal(5, Result);
 
         }
